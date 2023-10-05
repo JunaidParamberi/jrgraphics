@@ -237,7 +237,7 @@ video {
   border: none;
   padding: 10px 30px;
   border-radius: 10px;
-  
+
 }
 
 
@@ -248,4 +248,5 @@ video {
   border: 1px solid;
   border-color: black;
   transition: 0.8s;
+  letter-spacing: 0.5px;
 }
