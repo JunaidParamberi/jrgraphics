@@ -4,11 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Junaid Paramberi</title>
-  <link rel="stylesheet" href="style.css">
+  
   <!-- Set the favicon -->
   <link style="border-radius: 100px;" class="favicon" rel="icon" type="" href="My logo-2.png">
   <title>Your Website Title</title>
+
+  <link rel="stylesheet" href="about us.css">
 </head>
 <body>
+
+<section class="About_us">
+  <header>
+    <a href="index.html"><img class="logo" src="My logo BLACK.png" alt=""></a>
+    <div class="toggle   "></div>
+  </header>
+  <!--<img src="Images/ABout_us_bg.jpg" alt="">-->
+<div class="background"></div>
+
+<div class="about_us_text">
+  <h2>Get to Know me..  </h2>
+  <p>
+    Welcome to my creative world! I'm a versatile artist with a passion for visual storytelling. As a Graphic Designer, I transform ideas into stunning visuals that captivate and communicate. My lens is my canvas, and as a Photographer, I freeze moments in time, turning them into unforgettable memories. But that's just the beginning. <br> I'm also an experienced Videographer, capturing emotions and narratives through my lens, and a skilled Video Editor who weaves together footage into cinematic masterpieces. And to add a digital dimension to my creativity, I'm a Web Developer, crafting interactive online experiences that bridge imagination and technology. Every project I take on is a unique opportunity to blend artistry and innovation.</p>
+  <a href="#"><button class="button"> My Projects</button></a>
+</div>  
+      
+        <ul class="Social">
+          <li> <a href="https://www.facebook.com/junaid.raziqkundoor.7/" target="_blank"><img src="social/Facebook.png" alt="FB"/></a></li>
+          <li> <a href="https://instagram.com/junaid_paramberi?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="social/Instagram.png" alt="Insta"/></a></li>
+          <li> <a href="https://x.com/paramberijunaid?s=21" target="_blank"><img src="social/Twitter.png" alt="Twitter"/></a></li>
+          <li> <a href="https://www.behance.net/junaidkdr" target="_blank"><img src="social/behance-48.png" alt="Twitter"/></a></li>
+          
+      </ul>
+
+      
+
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li> <a href="index.html">Home</a></li>
+      <li> <a href="About us.html">About Us</a></li>
+      <li> <a href="#">Projects</a></li>
+      <li> <a href="#">Our Clients</a></li>
+      <li> <a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+  
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const About_us = document.querySelector('.About_us')
+
+    menuToggle.addEventListener('click',()=>{
+      menuToggle.classList.toggle('active')
+      About_us.classList.toggle('active')
+    })
+  </script>
   
 </body>
