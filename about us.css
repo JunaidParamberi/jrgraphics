@@ -99,13 +99,14 @@
 
   .Social {
     position: absolute;
-    bottom: 100px;
+    bottom: 20px;
     z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 36.5%;
-    padding-right: 36.5%;
+    padding-left: 36.7%;
+    
+  
     
     
     
