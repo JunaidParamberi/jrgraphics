@@ -97,38 +97,7 @@
 
   
 
-  .Social {
-    position: absolute;
-    bottom: 20px;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 36.7%;
 
-  
-    
-    
-    
-  }
-  
-  .Social li {
-    list-style: none;
-  }
-  
-  .Social li a {
-    display: inline-block;
-    justify-content: space-between;
-    transform: scale(0.6);
-    transition: 0.5s;
-    
-  }
-  
-  
-  .Social li a:hover {
-    cursor: pointer;
-    transform: scale(0.5) translateY(-8px)
-  }
   
   
 
@@ -215,6 +184,45 @@
   letter-spacing: 0.5px;
 }
 
+.Contact:active {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: rgba(0, 0, 0, 0.9);
+  color: white;
+  transition: 0.3s;
+  
+}
+
+
+.Social {
+  position: absolute;
+  bottom: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  left: 0;
+  margin-bottom: 25px;
+  
+}
+
+.Social li {
+  list-style: none;
+}
+
+.Social li a {
+  display: inline-block;
+  justify-content: space-between;
+  transform: scale(0.6);
+  transition: 0.5s;
+  
+}
+
+
+.Social li a:hover {
+  cursor: pointer;
+  transform: scale(0.5) translateY(-8px)
+}
   
 
   @media(max-width:789px) {
@@ -223,7 +231,7 @@
     
     }
 
-   
+  
     
     .about_us_text h2 {
       font-size: 2em;
