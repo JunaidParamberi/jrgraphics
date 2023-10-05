@@ -220,7 +220,7 @@ video {
   bottom: 0;
   margin-bottom: 1%;
   position: absolute;
-  font-size: 7%;
+  font-size: 11px;
   display: flex;
   margin-left: 8px;
 }
